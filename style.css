@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.margin {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header {
+    padding-top: 15px;
+}
+
+.header .margin,
+.header .margin nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero {
+    height: 100%;
+}
+
+.hero .margin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+.hero .margin .message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.hero .margin .message .signup {
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 18px;
+}
+
+.hero .margin .imgbox {
+    flex: 2 1 1000px;
+}
+
+.hero .margin .imgbox img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.information .margin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*h1, h2, h3, p, a {
+
+    font-family: 'Tahoma', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p, a {
+    font-size: 18px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    color: #F9FAF8
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 9px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.hero > .message {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero > .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    flex: 0 1 20px;
+}
+
+.hero > .container > img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+*/
