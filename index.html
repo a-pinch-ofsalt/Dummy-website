@@ -5,78 +5,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frank's website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="requested-style.css">
 </head>
 
 <body>
+    <div class="header">
+        <div class="margin">
+            <h3 class="logo">Header Logo</h3>
+            <nav class="links">
+                <a>header link one</a>
+                <a>header link two</a>
+                <a>header link three</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="hero">
+            <div class="margin">
+                <div class="message">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the
+                        color is lower contrast.</p>
+                    <button class="signup">Sign up</button>
+                </div>
+                <div class="imgbox">
+                    <img title="A duck" src="https://images.unsplash.com/photo-1465153690352-10c1b29577f8?q=80&w=415&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                </div>
+            </div>
+        </div>
+        <div class="information">
+            <div class="margin">
+                <h2>Some random information.</h2>
+                <div class="images-and-captions">
+                    <div>
+                        <img title="Running" src="https://images.unsplash.com/photo-1571008887538-b36bb32f4571?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <figcaption>This is some subtext under an illustration or image</figcaption>
+                    </div>
+                    <div>
+                        <img title="Biking" src="https://images.unsplash.com/photo-1528629297340-d1d466945dc5?q=80&w=922&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <figcaption>This is some subtext under an illustration or image</figcaption>
+                    </div>
+                    <div>
+                        <img title="Swimming" src="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?q=80&w=1150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <figcaption>This is some subtext under an illustration or image</figcaption>
+                    </div>
+                    <div>
+                        <img title="Climbing" src="https://images.unsplash.com/photo-1601224748193-d24f166b5c77?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <figcaption>This is some subtext under an illustration or image</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="margin">
+            <p>Hallo!</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
     <div class="page">
         <div class="header">
-            <h1>Header Logo</h1>
-            <nav><a href="#">header link one</a>
+            <h3 class="header-logo">Header Logo</h3>
+            <nav class="header-links"><a href="#">header link one</a>
                 <a href="#">header link two</a>
                 <a href="#">header link three</a>
             </nav>
         </div>
+
         <div class="content">
             <div class="hero">
-                <div>
+                <div class="message">
                     <h1>This website is awesome</h1>
                     <p>This website has some subtext that goes here under the main title. It's a smaller font and the
                         color is lower contrast.</p>
                     <button class="signup hero">Sign up</button>
                 </div>
-                <img title="A duck"
-                    src="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-                <div class="information-section">
-                    <h1>Some random information.</h1>
-                    <div class="captioned-images">
-                        <ul>
-                            <div>
-                                <img title="Running"
-                                    src="https://images.unsplash.com/photo-1571008887538-b36bb32f4571?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-                                <figcaption>This is some subtext under an illustration or image</figcaption>
-                            </div>
-                            <div>
-                                <img title="Biking"
-                                    src="https://images.unsplash.com/photo-1528629297340-d1d466945dc5?q=80&w=922&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-                                <figcaption>This is some subtext under an illustration or image</figcaption>
-                            </div>
-                            <div>
-                                <img title="Swimming"
-                                    src="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?q=80&w=1150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-                                <figcaption>This is some subtext under an illustration or image</figcaption>
-                            </div>
-                            <div>
-                                <img title="Climbing"
-                                    src="https://images.unsplash.com/photo-1601224748193-d24f166b5c77?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-                                <figcaption>This is some subtext under an illustration or image</figcaption>
-                            </div>
-                        </ul>
-                    </div>
+                <div class="container">
+                    <img title="A duck" src="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixclass=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                 </div>
-                <div class="quote-section">
-                    <p>
-                        This is an inspiring quote, or a testimonial from a <br>
-                        customer. Maybe it's just filling up space, or maybe <br>
-                        people will actually read it. Who knows? All I know <br>
-                        is that it looks nice.
-                    </p>
-                </div>
-                <div class="call-to-action">
-                    <div class="container">
-                        <div class="message">
-                            <h3>Call to action! It's time!</h3>
-                            <p>Sign up for our product by clicking that button right over there!</p>
-                        </div>
-                        <button class="signup call-to-action">Sign up</button>
-                    </div>
-                </div>
+                
             </div>
-
-            <div class="footer">
-                <p>Copyright © The Odin Project 2021</p>
+            <div class="information-section">
+                <h1>Some random information.</h1>
+                <ul>
+                    <div>
+                        <img title="Running" src="https://images.unsplash.com/photo-1571008887538-b36bb32f4571?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <figcaption>This is some subtext under an illustration or image</figcaption>
+                    </div>
+                    <div>
+                        <img title="Biking" src="https://images.unsplash.com/photo-1528629297340-d1d466945dc5?q=80&w=922&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <figcaption>This is some subtext under an illustration or image</figcaption>
+                    </div>
+                    <div>
+                        <img title="Swimming" src="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?q=80&w=1150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <figcaption>This is some subtext under an illustration or image</figcaption>
+                    </div>
+                    <div>
+                        <img title="Climbing" src="https://images.unsplash.com/photo-1601224748193-d24f166b5c77?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <figcaption>This is some subtext under an illustration or image</figcaption>
+                    </div>
+            <div class="quote-section">
+                <p>
+                    This is an inspiring quote, or a testimonial from a <br>
+                    customer. Maybe it's just filling up space, or maybe <br>
+                    people will actually read it. Who knows? All I know <br>
+                    is that it looks nice.
+                </p>
+            </div>
+            <div class="call-to-action">
+                <div class="container">
+                    <div class="call-to-action-message">
+                        <h3>Call to action! It's time!</h3>
+                        <p>Sign up for our product by clicking that button right over there!</p>
+                    </div>
+                    <button class="signup call-to-action">Sign up</button>
+                </div>
             </div>
         </div>
 
+        <div class="footer">
+            <p>Copyright © The Odin Project 2021</p>
+        </div>
+    </div>-->
 
 </body>
 
