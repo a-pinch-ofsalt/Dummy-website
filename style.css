@@ -1,182 +1,102 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 0px;
-}
-
-.margin {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.header {
+#header {
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.header .margin,
-.header .margin nav {
+#header .margin {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#header .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
     gap: 20px;
 }
 
-.hero {
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+
+#main-content .hero {
     height: 100%;
 }
 
-.hero .margin {
+#main-content .hero .margin {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    
     gap: 30px;
 }
 
-.hero .margin .message {
+#main-content .hero .message {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 15px;
+
+    gap: 23px;
+
+    flex: 1 2 auto;
 }
 
-.hero .margin .message .signup {
+#main-content .hero .signup-button {
     width: 130px;
     height: 45px;
+
+    background-color: #3882F6;
+
     font-size: 18px;
     font-weight: bold;
-    background-color: #3882F6;
     color: #F9FAF8;
+
+    border: 0px;
     border-radius: 18px;
 }
 
-.hero .margin .imgbox {
-    flex: 2 1 1000px;
-}
-
-.hero .margin .imgbox img{
-    max-height: 100%;
+#main-content .hero img {
+    flex: 2 1 auto;
     max-width: 100%;
+    max-height: 100%;
 }
 
-.information .margin {
+/*---------------------------------------------*/
+
+#main-content .info-section .margin {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    margin-left: 20%; /*shrinks info section more*/
+    margin-right: 20%; /*than the global value*/
+    
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
-.information .margin h2 {
+#main-content .info-section .heading {
     margin-left: auto;
     margin-right: auto;
 }
 
-.information .margin .images-and-captions {
+#main-content .info-section .images {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
 }
 
-.information .margin .images-and-captions div {
+#main-content .info-section .image-box {
     width: 25%;
 }
 
-.information .margin .images-and-captions div img {
+#main-content .info-section .image-box img {
     width: 100%;
-    height: 60%;
-    border-radius: 15px;
+    height: 100%;
+
     border: 3px solid #3882F6;
+    border-radius: 15px;
 }
-
-
-
-
-/*h1, h2, h3, p, a {
-
-    font-family: 'Tahoma', sans-serif;
-    margin: 0px;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: 800;
-}
-
-h2 {
-    font-size: 36px;
-    font-weight: 800;
-}
-
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-p, a {
-    font-size: 18px;
-}
-
-.page {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} 
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    background-color: #1F2937;
-}
-
-.header-logo {
-    color: #F9FAF8
-}
-
-.header-links {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    gap: 9px;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-}
-
-.hero {
-    display: flex;
-    background-color: #1F2937;
-}
-
-.hero > .message {
-    display: flex;
-    flex-direction: column;
-}
-
-.hero > .container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
-    flex: 0 1 20px;
-}
-
-.hero > .container > img {
-    width: 100px;
-    height: 100px;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-*/
