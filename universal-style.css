@@ -10,6 +10,10 @@
     color: #F9FAF8;
 }
 
+#main-content .quote-section {
+    background-color: #E5E7EB;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -24,6 +28,10 @@ p,
 a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
+}
+
+a, a:visited {
+    color: #F9FAF8;
 }
 
 h1 {
