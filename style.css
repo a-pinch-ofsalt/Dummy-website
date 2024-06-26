@@ -72,9 +72,8 @@
 #main-content .info-section .margin {
     padding-top: 50px;
     padding-bottom: 50px;
-    
-    margin-left: 20%; /*shrinks info section more*/
-    margin-right: 20%; /*than the global value*/
+     
+    margin-right: 20%;
     
     display: flex;
     flex-direction: column;
@@ -157,10 +156,6 @@
     align-items: center;
 
     gap: 40px;
-}
-
-#main-content .call-to-action .message {
-
 }
 
 #main-content .call-to-action .signup-button {
